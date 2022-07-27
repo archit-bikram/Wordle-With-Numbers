@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<link rel="stylesheet" href="SideNav.Js">
+
+
+<body style="background-image: url('numbers.jpg'); background-repeat:no-repeat; background-size: cover;">
+    <link rel="stylesheet" href="temp.css">
+    <div id="mySidenav1" class="sidenav"  >
+      <h2 style="text-align: center; color: rgba(255, 255, 255, 0.724);">The Rules</h2>
+
+      <div style=" color: rgba(255, 255, 255, 0.55);" class = "blackboard" id = "rules">
+      <a href="javascript:void(0)" class="closebtn" onclick="Nav_toggle(0)">&times;</a>
+      <h3>You have to guess the Number in six goes or less.</h3>
+      <h3>Every number you enter must be >= 10000 and <=99999 . </h3>
+      <h3>A correct digit turns green.</h3>
+      <h3>A correct digit in the wrong place turns yellow.</h3>
+      <h3>An incorrect digit turns gray.</h3>
+      <h3>Digits can be used more than once.</h3><br>
+      </div>
+    </div>
+
+    
+    <div id="mySidenav2" class="sidenav" style="align-items: center;">
+      <a href="javascript:void(0)" class="closebtn" onclick="Nav_toggle(0)">&times;</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div id="mySidenav3" class="sidenav" style="align-items: center;">
+      <a href="javascript:void(0)" class="closebtn" onclick="Nav_toggle(0)">&times;</a>
+      <h2 style="text-align: center; color: rgba(255, 255, 255, 0.724);">Notes</h2>
+      <div style=" color: rgba(255, 255, 255, 0.55);" class = "blackboard" id = "notes__board">
+      </div>
+
+    </div>
+
+    <script src="temp.js"></script>
+    
+    
+	<div id="main" style="text-align: center;">
+		<div class="header" style="align-items: center;">
+            &emsp;
+    <span style="font-size:30px;cursor:pointer" id="rules-option" onclick="Nav_toggle(1)">&#9776; Rules &ensp; </span>
+   <!-- <span style="font-size:30px;cursor:pointer" onclick="Nav_toggle(2)">&#9776; Sudoku &ensp; </span> -->
+   &emsp;&emsp; 
+   <span style="font-size:30px;cursor:pointer" id="Notes-option" onclick="initnotes()">&#9776; Notes &ensp; </span>
+
+            <h1 id = "FTK"> Find The Key </h1>
+        
+    <div id="game-board">
+
+        
+    </div>
+
+    <div id="keyboard-cont">
+        <div class="first-row">
+            
+            <button class="keyboard-button">0</button>
+            <button class="keyboard-button">1</button>
+            <button class="keyboard-button">2</button>
+            <button class="keyboard-button">3</button>
+            <button class="keyboard-button">4</button>
+            <button class="keyboard-button">5</button>
+            <button class="keyboard-button">6</button>
+            <button class="keyboard-button">7</button>
+            <button class="keyboard-button">8</button>
+            <button class="keyboard-button">9</button>
+        </div>
+        <div id = "reload">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="script.js" type="module"></script>
+<script src="SideNav_Rules.js"></script>
+</body>
+</html>
