@@ -12,8 +12,11 @@ Press Enter To Confirm Input
 
 
 Click The Digits On Notes Section To Change their Colour in Accordance with their Occurence.
+
 Red : Digit Not Present at This Position
+
 Blue : Digit Present Here
+
 Yellow : No Information
 
 Step I:
