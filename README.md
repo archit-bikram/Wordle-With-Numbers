@@ -2,7 +2,8 @@
 
 # How-To-Play
 
-<img width="956" alt="Rules" src="https://user-images.githubusercontent.com/60300485/181249444-f8d796fb-f46c-46c7-8b12-c330ebc82c04.png">
+<img width="960" alt="Rules" src="https://user-images.githubusercontent.com/60300485/181920144-79288554-08ab-48e2-94ec-49261818bcf6.png">
+
 Enter Inputs Using Keyboard/Blocks on Screen
 
 Press Enter To Confirm Input
